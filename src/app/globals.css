@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  border-radius: 4px;
+  background: #e56f20;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 30px;
+  display: inline-block;
+  height: 55px;
+  text-align: center;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav-menu-list {
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  padding: 8px 10px;
+  color: #202c2f;
+  font-family: var(--font-inter);
+}
+.menuToggleBtn {
+  display: none;
+}
+.video-frame {
+  position: relative;
+  padding-bottom: 47.5%;
+  height: 0;
+  max-width: 875px;
+  margin: 0 auto;
+}
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+}
+.video-frame video {
+  background: url(../assets/images/laptop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 2% 12% 10% 12%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.title-icon:before {
+  content: "";
+  background: url(../assets/images/titleicon.png);
+  background-size: cover;
+  background-position: center;
+  width: 27px;
+  height: 20px;
+  position: absolute;
+  left: -40px;
+  top: 13px;
+  z-index: 2;
+}
+.section-title {
+  color: #202c2f;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section-title span {
+  color: #e56f20;
+}
+#card-1 {
+  --index: 1;
+}
+
+#card-2 {
+  --index: 2;
+}
+
+#card-3 {
+  --index: 3;
+}
+
+#card-4 {
+  --index: 4;
+}
+.card-wrapper {
+  padding-top: calc(var(--index) * 2.5em);
+}
+.nav-menu-list.active {
+  color: #e56f20; /* Example active color */
+}
+#card-1 .language-imges,
+#card-2 .language-imges {
+  display: none;
+}
+.about-dropdown .questions:last-child {
+  margin: 0;
+}
+ul.half-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ul.half-list li {
+  width: calc(50% - 5px);
+  padding-left: 30px;
+  position: relative;
+}
+ul.orange-check li {
+  padding-left: 30px;
+  position: relative;
+  color: #13131c;
+}
+ul.orange-check li::before,
+ul.white-checks li::before {
+  content: "";
+  background: url(../assets/images/orangeCheck.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+ul.white-checks li::before {
+  background: url(../assets/images/white.svg);
+}
+ul.list-design li {
+  font-size: 13.977px;
+  font-weight: 400;
+  line-height: 33.944px;
+}
+.iamge-shadow:before {
+  content: "";
+  background: #E56F20;
+  border-radius: 17px;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  z-index: -1;
+  left: -38px;
+  bottom: 0;
+}
+.line-bg {
+  background: url(../assets/images/linebackground.svg) no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+}
+.custom-button {
+  padding: 17px 30px 12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-menu {
+    display: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 40px 20px;
+    background: #ededed;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 2;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  .section-title {
+    font-size: 42px;
+  }
+  .video-frame {
+    max-width: 545px;
+  }
+  .nav-menu.open {
+    display: block;
+  }
+  .menuToggleBtn {
+    display: block;
+  }
+  .nav-menu .close-btn {
+    position: absolute;
+    right: 18px;
+    top: 22px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .video-frame {
+    max-width: 372px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 10px 20px;
+    height: 45px;
+  }
+  .iamge-shadow:before {
+    left: 0;
+}
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 524px) {
+  .video-frame {
+    max-width: 300px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .drop svg {
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+}
