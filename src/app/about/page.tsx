@@ -9,6 +9,7 @@ import TeamCard from "@/components/TeamCard";
 import teamimg1 from "@/assets/images/teamimg1.png"
 import teamimg2 from "@/assets/images/teamimg2.png"
 import teamimg3 from "@/assets/images/teamimg3.png"
+import Link from "next/link";
 
 const TeamData =[
     {
@@ -127,8 +128,8 @@ const Page = () => {
         <div className="max-w-[910px] mx-auto text-center ">
           <h2 className=" mb-5 md:mb-10 text-[30px] md:text-[46px] lg:text-[80px] text-white font-bold md:font-[800] leading-[normal] lg:leading-[80px] ">Start creating videos. No experience needed.</h2>
          <div className="flex justify-center  ">
-         <button className="text-base md:text-lg font-[700] bg-white text-[#E56F20] flex items-center rounded-[25px] py-3 px-7 gap-[5px]">
-         Get Started <ButtonArrow /></button>
+         <Link href={'/'} className="text-base md:text-lg font-[700] bg-white text-[#E56F20] flex items-center rounded-[25px] py-3 px-7 gap-[5px]">
+         Get Started <ButtonArrow /></Link>
          </div>
         </div>
       </section>

@@ -2,6 +2,7 @@ import PricingPlans from "@/components/PricingPlans";
 import React from "react";
 import FaqBox from "@/components/FaqBox";
 import { ButtonArrow } from "@/utils/svgicons";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -23,7 +24,7 @@ const Page = () => {
             discuss how we can create a customized plan that drives your
             business forward.
           </p>
-          <button className="button mt-5 md:mt-10">Submit Request</button>
+          <Link href={`/#`} className="button mt-10 md:mt-[40px] md:px-[45px]">Submit Request</Link>
         </div>
       </section>
       <section>
@@ -32,10 +33,10 @@ const Page = () => {
       <section className="bg-[#E56F20] py-10 md:py-[80px] px-5 mt-10 md:mt-[80px]">
         <div className="max-w-[910px] mx-auto text-center ">
           <h2 className=" mb-5 md:mb-10 text-[30px] md:text-[46px] lg:text-[80px] text-white font-bold md:font-[800] leading-[normal] lg:leading-[80px] ">Start creating videos. No experience needed.</h2>
-         <div className="flex justify-center  ">
-         <button className="text-base md:text-lg font-[700] bg-white text-[#E56F20] flex items-center rounded-[25px] py-3 px-7 gap-[5px]">
-         Get Started <ButtonArrow /></button>
-         </div>
+          <div className="flex justify-center  ">
+            <Link href={'/'} className="text-base md:text-lg font-[700] bg-white text-[#E56F20] flex items-center rounded-[25px] py-3 px-7 gap-[5px]">
+              Get Started <ButtonArrow /></Link>
+          </div>
         </div>
       </section>
     </div>

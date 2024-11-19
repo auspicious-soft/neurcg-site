@@ -143,7 +143,7 @@ const Header = () => {
             </li>
             <li className="md:hidden">
               <Link
-                href={`${process.env.NEXT_PUBLIC_USER_LINK}/login`}
+                href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
                 className="nav-menu-list"
                 onClick={() => handleLinkClick("/contact")}
               >
@@ -154,7 +154,7 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex gap-[30px] justify-end items-center">
           <p>
-            <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}/login`} className="nav-menu-list">
+            <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`} className="nav-menu-list">
               Login
             </Link>
           </p>

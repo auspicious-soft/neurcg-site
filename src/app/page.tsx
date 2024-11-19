@@ -20,6 +20,7 @@ import StepsCard from "@/components/StepsCard";
 import stepimg1 from "@/assets/images/stepimg1.png"
 import stepimg2 from "@/assets/images/stepimg2.png"
 import stepimg3 from "@/assets/images/stepimg3.png"
+import Link from "next/link";
 
 const OverviewData = [
   {
@@ -91,7 +92,7 @@ export default function Home() {
           Instantly Convert Videos into Multiple Languages with Just One Click,
           Expanding Your Global Reach
         </h3>
-        <button className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</button>
+        <Link href={'/pricing'} className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
       </div>
       <div>
         <div className="relative pt-[50px]">
@@ -156,7 +157,7 @@ export default function Home() {
           </span> Result-Driven</h4>
           <h2 className="section-title">How It <span>Works.</span></h2>
           <p className="text-[#202020] text-lg mt-[10px] mb-[20px] md:my-[30px] opacity-70">Our goal is to be the most successful Marketing Automation service provider in the market through deliverance and diligence. We aim to automate the business with best practices and make it simple for business owners.</p>
-        <button className="button md:px-[43px]">Get Started Now</button>
+          <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Get Started Now</Link>
         
          </div> 
         </div>
