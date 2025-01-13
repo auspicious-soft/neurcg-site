@@ -6,7 +6,7 @@ import Image from "next/image";
 import FaqBox from "@/components/FaqBox";
 import { ButtonArrow } from "@/utils/svgicons";
 import TeamCard from "@/components/TeamCard";
-import teamimg1 from "@/assets/images/teamimg1.png"
+import teamimg1 from "@/assets/images/Partha.png"
 import teamimg2 from "@/assets/images/teamimg2.png"
 import teamimg3 from "@/assets/images/teamimg3.png"
 import Link from "next/link";
