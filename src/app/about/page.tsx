@@ -1,14 +1,14 @@
 import Banner from "@/components/Banner";
 import React from "react";
 import banner from "@/assets/images/banner.png";
-import img1 from "@/assets/images/cardimg1.png";
+import img1 from "@/assets/images/team.jpg";
 import Image from "next/image";
 import FaqBox from "@/components/FaqBox";
 import { ButtonArrow } from "@/utils/svgicons";
 import TeamCard from "@/components/TeamCard";
 import teamimg1 from "@/assets/images/Partha.png"
-import teamimg2 from "@/assets/images/teamimg2.png"
-import teamimg3 from "@/assets/images/teamimg3.png"
+import teamimg2 from "@/assets/images/Valen.png"
+import teamimg3 from "@/assets/images/Kamil.png"
 import Link from "next/link";
 
 const TeamData =[
