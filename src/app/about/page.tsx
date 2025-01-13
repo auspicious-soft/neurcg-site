@@ -6,9 +6,9 @@ import Image from "next/image";
 import FaqBox from "@/components/FaqBox";
 import { ButtonArrow } from "@/utils/svgicons";
 import TeamCard from "@/components/TeamCard";
-import teamimg1 from "@/assets/images/Partha.png"
-import teamimg2 from "@/assets/images/Valen.png"
-import teamimg3 from "@/assets/images/Kamil.png"
+import teamimg1 from "@/assets/images/Partha.jpg"
+import teamimg2 from "@/assets/images/Valen.jpg"
+import teamimg3 from "@/assets/images/Kamil.jpg"
 import Link from "next/link";
 
 const TeamData =[
