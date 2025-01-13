@@ -15,20 +15,20 @@ const TeamData =[
     {
         id: 1,
         imageUrl: teamimg1,
-        name: "Partha Ghosh",
-        position: "CEO/Founder",
+        name: "Dr.Partha Ghosh",
+        position: "CEO/Co-Founder",
     },
     {
         id: 2,
         imageUrl: teamimg2,
-        name: "Ann Richmond",
-        position: "Director",
+        name: "Valentina Rodriguez",
+        position: "CCO/Co-Founder",
     },
     {
         id: 3,
         imageUrl: teamimg3,
-        name: "Alex Greenfield",
-        position: "Manager",
+        name: "Dr.Kamil Adamczewski",
+        position: "CTO/Co-Founder",
     },
 ]
 
@@ -51,15 +51,12 @@ const Page = () => {
               <span> Are</span>
             </h2>
             <p className="md:mt-8 mt-4 text-[#202020] text-base md:text-lg font-normal opacity-70 md:leading-[30px]">
-              NeurCG is a start-up project that started a year ago when two
-              scientists specialists in machine learning and computer vision,
-              decided to transform science into business. No one could possibly
-              imagine that a paper could turn into a project, but with the
-              guidance and support from MAX!mize (a program of the Max Planck
-              Society) this desire turn into a reality. The support from
-              Max!mize has not been just financial, we are trained in different
-              aspects that are needed in a company, such as marketing,
-              commercial and financial strategies.
+              We are a team of two scientists specializing in machine learning 
+              and computer vision, joined by an entrepreneur with an MBA and a
+              history of founding startups. United by our passion for innovation,
+              we aim to transform science into business, bringing reality into
+              the virtual world to simplify and connect lives globally.
+
             </p>
           </div>
         </div>
@@ -73,18 +70,13 @@ const Page = () => {
                 Our <span>Dream</span>
               </h2>
               <p className=" text-[#202020] text-base md:text-lg font-normal opacity-70 md:leading-[30px]">
-                NeurCG provides cutting-edge Ai-based graphics technologies and
-                services that allow one to produce realistic human faces. We
-                have scalable solutions for companies of all sizes. It all began
-                as a game that rapidly became a dream. Today we offer innovative
-                and intelligent services to different industries such as online
-                fashion trail and videogame developers.
-              </p>
-              <p className="mt-2 text-[#202020] text-base md:text-lg font-normal opacity-70 md:leading-[30px]">
-                We listen carefully to our potential clients to correctly
-                understand their needs and exceed their expectations of our
-                product. We know how to analyze information so that our offer is
-                always adjusted to the changing needs of the market.{" "}
+                Our dream is to bridge the gap between reality and the virtual
+                world, making technology as intuitive and immersive as life 
+                itself. We envision a future where language barriers disappear,
+                virtual interactions feel human, and everyone has access to 
+                tools that simplify and connect their lives. Through innovation 
+                and dedication, we strive to make this vision a reality for a
+                more united and accessible world.
               </p>
             </div>
             <div>
@@ -101,11 +93,10 @@ const Page = () => {
                 Meet The Team <span>Our Professionals</span>
               </h2>
               <p className=" text-[#202020] text-sm md:text-lg font-normal opacity-70 md:leading-[30px]">
-                NeurCG provides cutting-edge Ai-based graphics technologies and
-                services that allow one to produce realistic human faces. We
-                have scalable solutions for companies of all sizes. It all began
-                as a game that rapidly became a dream. Today we offer innovative
-                and intelligent services to different.
+                Behind our vision is a diverse team of innovators who bring
+                expertise, creativity, and passion to everything we do.
+                Together, we’re combining science and entrepreneurship
+                to reshape how the world interacts with technology.
               </p>
             </div>
             <div className="mt-7 md:mt-0 grid md:grid-cols-3 gap-4 md:gap-x-[48px] ">
