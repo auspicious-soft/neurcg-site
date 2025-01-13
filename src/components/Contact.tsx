@@ -57,7 +57,7 @@ const Contact = () => {
             Location
           </h3>
           <p className="text-[#202c2f] text-xl font-semibold mb-7">
-            Max-Planck-Ring 4, 72076 Tübingen, <br /> Germany
+            Fuerststr. 19, 72072 Tübingen, <br /> Germany
           </p>
           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
             Call Us
@@ -69,7 +69,7 @@ const Contact = () => {
             Mail Us
           </h3>
           <p className="text-[#202c2f] text-xl font-semibold mb-7">
-            neurcg@gmail.com
+            neurcg@neurcg.com
           </p>
           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
             Follow Us
