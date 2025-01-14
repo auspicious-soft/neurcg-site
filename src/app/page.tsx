@@ -91,7 +91,8 @@ export default function Home() {
             Instantly Convert Videos into Multiple Languages with Just One Click,
             Expanding Your Global Reach
           </h3>
-          <Link href={'/pricing'} className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
+          <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
+           className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">

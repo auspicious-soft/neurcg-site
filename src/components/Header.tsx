@@ -134,7 +134,7 @@ const Header = () => {
             </li>
             <li className="md:hidden">
               <Link
-                href="/pricing"
+               href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
                 className="nav-menu-list"
                 onClick={() => handleLinkClick("/contact")}
               >
@@ -160,7 +160,7 @@ const Header = () => {
           </p>
           <p>
             <Link
-              href="/pricing"
+               href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
               className="nav-menu-list lg:!inline-block !text-white bg-[#E56F20] rounded-[4px] lg:!px-[30px] !py-[12px]"
             >
               Free Trial
