@@ -64,9 +64,9 @@ const Footer: React.FC = () => {
           </div>
           <div className="w-[100%] pt-[20px] md:pt-0 md:w-[50%] lg:w-[35%]">
             <h2 className="text-[#e56f20] text-xl font-semibold mb-3 md:mb-7">Visit us</h2>
-            <p className="text-[#212f33] text-base mb-2 md:mb-5">Max-Planck-Ring 4, 72076 Tübingen, Germany</p>
+            <p className="text-[#212f33] text-base mb-2 md:mb-5">Fuerststr. 19, 72072 Tübingen, Germany</p>
             <p className="text-[#212f33] text-base mb-2 md:mb-5">(+49) 1512 8950 793</p>
-            <p className="text-[#212f33] text-base ">neurcg@gmail.com</p>
+            <p className="text-[#212f33] text-base ">neurcg@neurcg.com</p>
           </div>
           <div className="w-[100%] pt-[20px] lg:w-[35%] lg:pt-0">
             <h2 className="text-[#e56f20] text-xl font-semibold mb-3 md:mb-7">Sign Up</h2>
