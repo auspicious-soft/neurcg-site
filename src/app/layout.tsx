@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NeurCG",
+  title: "Maity 🚀",
   description: "",
 };
 
