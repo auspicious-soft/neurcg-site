@@ -5,6 +5,7 @@ import "./style.css";
 import { Toaster } from "sonner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
@@ -21,13 +22,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          // id="adsbygoogle-init"   
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID}`}
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          // onError={(e) => console.error('Script failed to load', e)}
+        />
+      </head>
       <body className="{`${inter.className} ${nunitoSans.className}`}">
-        
-      <Toaster richColors={true} />
-      <Header />
+        <Toaster richColors={true} />
+        <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

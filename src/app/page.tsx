@@ -21,6 +21,7 @@ import stepimg1 from "@/assets/images/stepimg1.png"
 import stepimg2 from "@/assets/images/stepimg2.png"
 import stepimg3 from "@/assets/images/stepimg3.png"
 import Link from "next/link";
+import GoogleAd from "@/components/google-ads";
 
 const OverviewData = [
   {
@@ -92,7 +93,7 @@ export default function Home() {
             Expanding Your Global Reach
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-           className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
@@ -122,6 +123,10 @@ export default function Home() {
               Transform your Videos{" "}
             </span>
           </h2>
+          <GoogleAd
+            slot="5920617536"  // Replace with your ad slot ID
+          // style={{ maxHeight: '300px' }}
+          />
           <div className="sticky-cards">
             {OverviewData.map((item) => (
               <ProductDesc
