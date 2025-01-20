@@ -98,7 +98,7 @@ export default function Home() {
         <div>
           <div className="relative pt-[50px]">
             <div className="video-frame">
-              <VideoPlayer url="/assets/homevideo.mp4" />
+              <VideoPlayer url="/assets/homevideo1.mp4" />
             </div>
             <div className="hidden md:flex p-[7px] items-center bg-white gap-4 rounded-lg pr-5 absolute top-[25%] translate-y-[-25%] left-[50px]  ">
               <VideoIcon1 />
