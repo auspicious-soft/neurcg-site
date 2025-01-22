@@ -1,15 +1,9 @@
 {
-    "redirects": [
-      {
-        "source": "https://neurcg.com/:path*",
-        "destination": "https://maity.pro/:path*",
-        "permanent": true
-      },
-      {
-        "source": "https://www.neurcg.com/:path*",
-        "destination": "https://maity.pro/:path*",
-        "permanent": true
-      }
-    ]
-  }
-  
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://maity.pro/:path*",
+      "permanent": true 
+    }
+  ]
+}
