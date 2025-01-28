@@ -14,7 +14,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ url }) => {
       <ReactPlayer
         className='react-player'
         url={url}
-        // url='/assets/homevideo.mp4'
+        // url='/assets/homevideo1.mp4'
         width='100%'
         playing={true}
         muted={true}
