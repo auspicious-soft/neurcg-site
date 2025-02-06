@@ -27,7 +27,11 @@ const faqData = [
   },
   {
     title: "Can I talk to an avatar in real time?",
-    content: "Yes! you definitely can. The product is in beta mode. Contact us directly to get early access.",
+    content: "Yes! you definitely can. The product is in beta mode. Contact us directly by <a href='https://maity.pro/#contact-us'>clicking here</a> or write to us at neurcg@neurcg.com to get early access.",
+  },
+  {
+    title: "Well, how do I get started?",
+    content: "<a href=’https://app.maity.pro/login’>Click here</a> and follow the on-screen instructions or <a href=’https://youtu.be/Yge-FkJcixk’>watch a video</a> describing this.",
   },
 ];
 
