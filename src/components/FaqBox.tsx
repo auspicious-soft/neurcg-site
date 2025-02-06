@@ -6,28 +6,28 @@ import { DropDown, DropDownClose } from '@/utils/svgicons';
 
 const faqData = [
   {
-    title: 'How does invideo AI convert text to video, automatically?',
-    content: 'Answer',
+    title: 'How does AI convert text to video, automatically?',
+    content: 'When we humans speak, we follow a pattern of mouth tongue and lips shape to trap and release air in a specific way. This converts what we want to say into sound. Text is simply the frozen version of that sound on paper. Our neural network has learned how to convert these letters first into sound and then to what mouth articulation, head movement, and attitude the speaker most likely would have had if he/she were to speak this. Those articulations are then applied to the avatars you have created already. This is then done over time to produce a video.',
   },
   {
-    title: 'Do you need to download anything to use article to video feature by invideo AI?',
-    content: 'Answer',
+    title: 'Do you need to download anything to use text-to-video feature by AI',
+    content: 'No. The offered solution is web-based. That means you simply copy-paste/type the text you want your avatar to speak and we take care of the rest. Under the hood, the text is encrypted and sent to use. We perform the animation, encrypt it, and send it back to you.',
   },
   {
     title: 'Which is the best AI powered text to video maker?',
-    content: 'Answer',
+    content: 'Obviously we are. :P jokes aside this depends upon what makes one better than other. There are several factors and metrics to compare under. The academic papers use several different metric none of which is complete. We let you judge on your own, and when you do - A few things to keep in mind are 1. Efficiency in time, 2. Energy efficiency, 3. Realism of image, 4. Realism of the movement, 5. Cost, etc.',
   },
   {
-    title: "How does invideo AI convert text to video, automatically?",
-    content: "Answer",
+    title: "Can I customize the avatar’s?",
+    content: "Yes. MaiTY lets you personalize every aspect of the avatar. You can choose from a range of pre-designed avatars or create your custom character using simply one photo from your webcam!",
   },
   {
-    title: "Do you need to download anything to use article to video feature by invideo AI?",
-    content: "Answer",
+    title: "What is the difference between the two offered products - audio-to-video and text-to-video?",
+    content: "Well when you use audio to generate video you have direct control over the audio, e.g., introduce a long pause and sound of a sigh etc. you might not be able to control those when converting text-into videos.",
   },
   {
-    title: "Which is the best AI powered text to video maker?",
-    content: "Answer",
+    title: "Can I talk to an avatar in real time?",
+    content: "Yes! you definitely can. The product is in beta mode. Contact us directly to get early access.",
   },
 ];
 
