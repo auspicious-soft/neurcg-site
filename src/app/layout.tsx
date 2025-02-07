@@ -37,7 +37,7 @@ export default function RootLayout({
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID}`}
           strategy="afterInteractive"
           crossOrigin="anonymous"
-          onError={(e) => console.error('Script failed to load', e)}
+          // onError={(e) => console.error('Script failed to load', e)}
         />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
