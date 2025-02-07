@@ -106,7 +106,7 @@ const Page = () => {
            name={data.name}
         position= {data.position}
         imageUrl={data.imageUrl}
-           />     
+           />      
             ))}
             </div>
           </div>
