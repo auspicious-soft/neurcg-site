@@ -18,7 +18,7 @@ const faqData = [
     content: 'Obviously we are. :P jokes aside this depends upon what makes one better than other. There are several factors and metrics to compare under. The academic papers use several different metric none of which is complete. We let you judge on your own, and when you do - A few things to keep in mind are 1. Efficiency in time, 2. Energy efficiency, 3. Realism of image, 4. Realism of the movement, 5. Cost, etc.',
   },
   {
-    title: "Can I customize the avatar’s?",
+    title: "Can I customize the avatar's?",
     content: "Yes. MaiTY lets you personalize every aspect of the avatar. You can choose from a range of pre-designed avatars or create your custom character using simply one photo from your webcam!",
   },
   {
@@ -27,11 +27,11 @@ const faqData = [
   },
   {
     title: "Can I talk to an avatar in real time?",
-    content: "Yes! you definitely can. The product is in beta mode. Contact us directly by <a href='https://maity.pro/#contact-us'>clicking here</a> or write to us at neurcg@neurcg.com to get early access.",
+    content: "Yes! you definitely can. The product is in beta mode. Contact us directly by <a href='https://maity.pro/#contact-us' style='color: #e56f20;'>clicking here</a> or write to us at neurcg@neurcg.com to get early access.",
   },
   {
     title: "Well, how do I get started?",
-    content: "<a href=’https://app.maity.pro/login’>Click here</a> and follow the on-screen instructions or <a href=’https://youtu.be/Yge-FkJcixk’>watch a video</a> describing this.",
+    content: "<a href='https://app.maity.pro/login' target='_blank' style='color: #e56f20;'>Click here</a> and follow the on-screen instructions or <a href='https://youtu.be/Yge-FkJcixk' target='_blank' style='color: #e56f20;'>Watch a video</a> describing this.",
   },
 ];
 
@@ -48,38 +48,39 @@ const FaqBox: React.FC = () => {
   };
 
   return (
-    <div className='container'>   
-    <div className="about-dropdown bg-[#f3f7f5] md:rounded-[32px] rounded-[20px] md:py-[80px] p-6 md:px-[65px]">
+    <div className='container'>
+      <div className="about-dropdown bg-[#f3f7f5] md:rounded-[32px] rounded-[20px] md:py-[80px] p-6 md:px-[65px]">
         <h2 className='section-title mb-5 md:mb-[45px] text-center'>Want To <span> Know More?</span></h2>
         <div className="">
           {faqData.map((dropdown, index) => (
             <div className='questions md:mb-[20px] mb-[10px] pb-[20px] border-b border-[#0000001a]' key={index}>
               <p
-                className={`md:text-[20px] opacity-70 text-[#202020] text-base cursor-pointer flex justify-between md:items-center ${
-                    dropdownStates[index] ? 'active' : ''
+                className={`md:text-[20px] opacity-70 text-[#202020] text-base cursor-pointer flex justify-between md:items-center ${dropdownStates[index] ? 'active' : ''
                   }`}
                 onClick={() => toggleDropdown(index)}
               >
-               {dropdown.title}
+                {dropdown.title}
                 <span className='drop mt-1 md:mt-0'>
                   {dropdownStates[index] ? (
-                    <span className="transition duration-300 transform rotate-180"><DropDownClose/> </span>
+                    <span className="transition duration-300 transform rotate-180"><DropDownClose /> </span>
                   ) : (
                     <span className="transition duration-300 transform rotate-0"><DropDown /> </span>
                   )}
                 </span>
               </p>
               <div
-                className={`transition-max-height duration-300 ease-in-out overflow-hidden ${
-                  dropdownStates[index] ? 'max-h-screen' : 'max-h-0'
-                }`}
+                className={`transition-max-height duration-300 ease-in-out overflow-hidden ${dropdownStates[index] ? 'max-h-screen' : 'max-h-0'
+                  }`}
               >
-                <p className='pt-2 text-base text-[#686C78]'>{dropdown.content}</p>
+                <div
+                  className='pt-2 text-base text-[#686C78]'
+                  dangerouslySetInnerHTML={{ __html: dropdown.content }}
+                />
               </div>
             </div>
           ))}
         </div>
-    </div>
+      </div>
     </div>
   );
 };
