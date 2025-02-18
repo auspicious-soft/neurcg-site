@@ -83,17 +83,17 @@ export default function Home() {
       <div className="container">
         <div className="pt-[10px] md:pt-[30px] lg:pt-[50px] text-center">
           <h1 className="text-black text-[30px] leading-[40px] md:text-[42px] lg:text-[66px] font-[800] md:leading-[66px] lg:leading-[86px]">
-            Effortless Video Production: <br />
+            Effortless AI Digital Agents: <br />
             <span className="text-[#e56f20]">
-              AI-Driven, Instant, and Multilingual{" "}
+              Human-Like, Intelligent, and Business-Ready{" "}
             </span>
           </h1>
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
-            Instantly Convert Videos into Multiple Languages with Just One Click,
-            Expanding Your Global Reach
+            Transform your business with AI-powered digital agents that engage, assist, and automate in real time,
+            Create your own AI Assistant for Education, Customer Support HR, Sales, and More
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Create Your AI Assistant</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
