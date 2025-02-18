@@ -89,7 +89,7 @@ export default function Home() {
             </span>
           </h1>
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
-              Create your own AI Assistant for Education, Customer Support HR, Sales, and More...
+              Create your own AI Assistant for Education, Customer Support, HR, Sales, and More...
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
             className="button mt-[20px] md:mt-[40px] md:px-[45px]">Create Your AI Assistant</Link>
