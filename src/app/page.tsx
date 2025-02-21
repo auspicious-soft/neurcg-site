@@ -119,12 +119,12 @@ export default function Home() {
           <h2 className="section-title text-center mb-[20px] md:mb-[46px]  ">
             The fastest, easiest way to <br />
             <span>
-              Transform Your Courses{" "}
+              Transform Your Content{" "}
             </span>
-             <Link href={ 
-      <section id="contact-us">
-        <Contact />
-      </section>}
+             </h3>
+          <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Create Your AI Assistant</Link>
+        </div>
             className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
         </div>
           </h2>
