@@ -80,7 +80,7 @@ const Contact = () => {
         </div>
         <form className="right-section" onSubmit={handleSubmit}>
           <label htmlFor="name" className="text-[#212f33] flex flex-col mb-[20px] md:mb-[33px] md:flex-row text-xl md:text-3xl">
-            My Name Is
+            I want to Book a DEMO My Name Is
             <input
               type="text"
               name="name"
