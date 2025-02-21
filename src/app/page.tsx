@@ -119,8 +119,14 @@ export default function Home() {
           <h2 className="section-title text-center mb-[20px] md:mb-[46px]  ">
             The fastest, easiest way to <br />
             <span>
-              Transform your Videos{" "}
+              Transform Your Courses{" "}
             </span>
+             <Link href={ 
+      <section id="contact-us">
+        <Contact />
+      </section>}
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
+        </div>
           </h2>
           <GoogleAd
             slot="5920617536"  // Replace with your ad slot ID
