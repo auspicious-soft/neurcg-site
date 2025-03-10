@@ -59,12 +59,6 @@ const Contact = () => {
           <p className="text-[#202c2f] text-xl font-semibold mb-7">
             Fuerststr. 19, 72072 Tübingen, <br /> Germany
           </p>
-//           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
-//             Call Us
-//           </h3>
-//           <p className="text-[#202c2f] text-xl font-semibold mb-7">
-//             (+49) 1512 8950 793
-//           </p>
           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
             Mail Us
           </h3>
