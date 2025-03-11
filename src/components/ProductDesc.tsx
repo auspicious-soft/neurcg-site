@@ -37,7 +37,7 @@ interface CardProps {
   description: string | string[]; 
   buttonLink: string;
   imgSrc?: string | StaticImageData;
-  //videoSrc?: string;
+  videoSrc?: string;
   icon1: React.ReactNode;
   icon2: React.ReactNode;
 }
@@ -48,6 +48,7 @@ const ProductDesc: React.FC<CardProps> = ({
   description,
   buttonLink,
   imgSrc,
+  videoSrc?,
   icon1,
   icon2,
 }) => {
@@ -82,13 +83,20 @@ const ProductDesc: React.FC<CardProps> = ({
       </div>
       <div className=" md:pl-[70px]">
         <div className="iamge-shadow relative z-[2] ">
-          {imgSrc && (
-            <Image
-              src={imgSrc}
-              alt="Card img"
-              className="rounded-[20px] w-full"
-            />
-          )}
+          {videoSrc ? (
+                <video controls className="rounded-t-[20px] w-full">
+                    <source src={videoSrc} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            ) : (
+                imgSrc && (
+                    <Image
+                        src={imgSrc}
+                        alt="Card img"
+                        className=" rounded-t-[20px] w-full"
+                    />
+                )
+            )}
           <div className="hidden md:block absolute top-[64px] right-[-46px] bg-white/10 rounded-full backdrop-blur-[19.30px] p-3">
             {icon1}
           </div>
