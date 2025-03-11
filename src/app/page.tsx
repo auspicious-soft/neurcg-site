@@ -130,24 +130,16 @@ export default function Home() {
           />
           <div className="sticky-cards">
             {OverviewData.map((item) => (
-               <ProductDesc
-                id={item.id}
-                key={item.id}
-                title={item.title}
-                description={item.description}
-                buttonLink={item.buttonLink}
-                icon1={item.icon1}
-                icon2={item.icon2}
-                >
-                {item.videoSrc ? (
-                  <video controls className="w-full rounded-[20px]">
-                    <source src={item.videoSrc} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                ) : (
-                  <Image src={item.imgSrc} alt="Card img" className="w-full rounded-[20px]" />
-                )}
-              </ProductDesc>
+              <ProductDesc
+                 id={item.id}
+                 key={item.id}
+                 title={item.title}
+                 description={item.description}
+                 imgSrc={item.imgSrc}
+                 icon1={item.icon1}
+                 icon2={item.icon2}
+                 buttonLink={item.buttonLink}
+               />
             ))}
           </div>
         </div>
