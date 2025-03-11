@@ -76,7 +76,7 @@ const ProductDesc: React.FC<CardProps> = ({
 
           <div className="md:pl-[70px]">
             <div className="iamge-shadow relative z-[2]">
-              {/* Check if videoSrc is provided and show the video if true */}
+              {/* Check if videoSrc is provided and if it's the current video being played */}
               {videoSrc && videoPlaying === id ? (
                 <video
                   className="rounded-[20px] w-full"
@@ -92,11 +92,17 @@ const ProductDesc: React.FC<CardProps> = ({
               ) : (
                 <>
                   {/* Show Image if Video is not playing */}
-                  <Image
-                    src={imgSrc as string}
-                    alt="Card img"
-                    className="rounded-[20px] w-full"
-                  />
+                  {imgSrc ? (
+                    <Image
+                      src={imgSrc as string}
+                      alt="Card img"
+                      className="rounded-[20px] w-full"
+                    />
+                  ) : (
+                    <div className="rounded-[20px] w-full bg-gray-300 h-[300px] flex justify-center items-center">
+                      <PlayIcon className="text-white text-4xl" />
+                    </div>
+                  )}
                   {videoSrc && (
                     <div
                       className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
