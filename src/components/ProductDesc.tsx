@@ -23,7 +23,7 @@ interface CardProps {
   description: string | string[];
   buttonLink: string;
   imgSrc?: string | StaticImageData;
-  videoSrc?: string;  // Add the video source prop
+  videoSrc?: string;
   icon1: React.ReactNode;
   icon2: React.ReactNode;
 }
@@ -34,14 +34,15 @@ const ProductDesc: React.FC<CardProps> = ({
   description,
   buttonLink,
   imgSrc,
-  videoSrc,  // Receive video source
+  videoSrc,
   icon1,
   icon2,
 }) => {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [videoPlaying, setVideoPlaying] = useState<string | null>(null);
 
-  const handlePlayClick = () => {
-    setIsVideoPlaying(true);
+  const handlePlayClick = (cardId: string) => {
+    // Set the video playing to the clicked card's ID
+    setVideoPlaying(cardId);
   };
 
   return (
@@ -76,32 +77,35 @@ const ProductDesc: React.FC<CardProps> = ({
           <div className="md:pl-[70px]">
             <div className="iamge-shadow relative z-[2]">
               {/* Check if videoSrc is provided and show the video if true */}
-              {videoSrc && !isVideoPlaying ? (
-                <div className="relative z-[2]">
-                  <Image
-                    src={imgSrc as string}  // Display the image when video is not playing
-                    alt="Card img"
-                    className="rounded-[20px] w-full"
-                  />
-                  <div
-                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-                    onClick={handlePlayClick}
-                  >
-                    <PlayIcon />
-                  </div>
-                </div>
-              ) : (
+              {videoSrc && videoPlaying === id ? (
                 <video
                   className="rounded-[20px] w-full"
                   controls
                   autoPlay
                   loop
                   muted
-                  onClick={() => setIsVideoPlaying(false)}
+                  onClick={() => setVideoPlaying(null)} // Clicking video will stop it
                 >
                   <source src={videoSrc} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
+              ) : (
+                <>
+                  {/* Show Image if Video is not playing */}
+                  <Image
+                    src={imgSrc as string}
+                    alt="Card img"
+                    className="rounded-[20px] w-full"
+                  />
+                  {videoSrc && (
+                    <div
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+                      onClick={() => handlePlayClick(id)}
+                    >
+                      <PlayIcon />
+                    </div>
+                  )}
+                </>
               )}
 
               <div className="hidden md:block absolute top-[64px] right-[-46px] bg-white/10 rounded-full backdrop-blur-[19.30px] p-3">
