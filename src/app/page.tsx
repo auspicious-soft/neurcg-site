@@ -52,7 +52,7 @@ const OverviewData = [
       "Produce tailored video content in your preferred language.",
       "Voice Cloning in 28 Languages",
       "Translate video content in just a few clicks to reach a worldwide audience."],
-    imgSrc: img3,
+    videoSrc: "/assets/YourVideoFile.mp4",
     buttonLink: "#contact-us",
     icon1: <CardIcon3 />,
     icon2: <TypeIcon3 />,
@@ -130,16 +130,24 @@ export default function Home() {
           />
           <div className="sticky-cards">
             {OverviewData.map((item) => (
-              <ProductDesc
+               <ProductDesc
                 id={item.id}
                 key={item.id}
                 title={item.title}
                 description={item.description}
-                imgSrc={item.imgSrc}
+                buttonLink={item.buttonLink}
                 icon1={item.icon1}
                 icon2={item.icon2}
-                buttonLink={item.buttonLink}
-              />
+                >
+                {item.videoSrc ? (
+                  <video controls className="w-full rounded-[20px]">
+                    <source src={item.videoSrc} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <Image src={item.imgSrc} alt="Card img" className="w-full rounded-[20px]" />
+                )}
+              </ProductDesc>
             ))}
           </div>
         </div>
