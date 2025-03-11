@@ -93,8 +93,10 @@ export default function Home() {
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
               Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
-          <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
+          buttonLink: "#contact-us",
+          //the following two lines were disconected. They linked to the platform. I wanted to keep it in case we want to use it later
+          //<Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
+            //className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
