@@ -154,6 +154,7 @@ export default function Home() {
                   title={data.title}
                   description={data.description}
                   imgSrc={data.imgSrc}
+                  videoSrc={data.videoSrc} 
                 />
               ))}
             </div>
