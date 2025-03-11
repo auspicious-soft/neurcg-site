@@ -26,8 +26,8 @@ import GoogleAd from "@/components/google-ads";
 const OverviewData = [
   {
     id: "card-1",
-    title: "Convert Your Text And Image to Live Videos",
-    description: "Turn your text and images into dynamic video content.Choose an avatar or create your virtual tween to create personalised, captivating visuals for any purpose.",
+    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly",
+    description: "Turn your photo into a real-time AI assistant. Engage, interact, and communicate with a virtual version of yourself.",
     imgSrc: img1,
     buttonLink: "#",
     icon1: <CardIcon1 />,
@@ -35,9 +35,9 @@ const OverviewData = [
   },
   {
     id: "card-2",
-    title: "Convert Your Audio And Image to Live Videos",
+    title: "Turn your videos into interactive experiences",
     description:
-      "Bring your ideas to life! Convert your audio and images into stunning live videos with unique avatar animations, designed to reflect your digital persona in vibrant and engaging ways.",
+      "Turn your traditional videos into interactive experiences by creating a real-time avatar of the presenter. Viewers can ask questions directly to the video, and the avatar responds instantly, offering personalized answers before seamlessly continuing with the content.",
     imgSrc: img2,
     buttonLink: "#",
     icon1: <CardIcon2 />,
