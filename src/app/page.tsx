@@ -73,7 +73,7 @@ const StepCardData = [
     id: 3,
     title: "Interactive Q&A",
     description: "Users can ask questions, and the avatar responds automatically, before continuing with the class or course seamlessly.",
-    <VideoPlayer url="/assets/Avatarhomevideo.mp4" /> //imgSrc: stepimg3,
+    imgSrc: stepimg3,
   },
 ]
 export default function Home() {
