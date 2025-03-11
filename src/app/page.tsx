@@ -21,7 +21,6 @@ import StepsCard from "@/components/StepsCard";
 import stepimg1 from "@/assets/images/stepimg1.png"
 import stepimg2 from "@/assets/images/stepimg2.png"
 import stepimg3 from "@/assets/images/stepimg3.png"
-//import stepvid3 from "public/assets/maity.mp4"
 import Link from "next/link";
 import GoogleAd from "@/components/google-ads";
 
@@ -136,7 +135,7 @@ export default function Home() {
                  title={item.title}
                  description={item.description}
                  imgSrc={item.imgSrc}
-                 videoSrc={data.videoSrc} 
+                 //videoSrc={data.videoSrc} 
                  icon1={item.icon1}
                  icon2={item.icon2}
                  buttonLink={item.buttonLink}
