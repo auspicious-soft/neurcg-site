@@ -60,19 +60,19 @@ const StepCardData = [
   {
     id: 1,
     title: "Upload Your Content",
-    description: "Start by uploading your text, images, or audio files.",
+    description: "Share any educational, instructional, or informational content, along with the key information where you want your avatar to respond.",
     imgSrc: stepimg1,
   },
   {
     id: 2,
-    title: "Customize Your Output",
-    description: "Select from different avatars, animations, voice options, and languages to tailor your video.",
+    title: "AI Creates Your Real-Time Avatar",
+    description: "The system generates a dynamic avatar based on the video, ready to interact with users.",
     imgSrc: stepimg2,
   },
   {
     id: 3,
-    title: "Create and Share",
-    description: "Generate high-quality videos or translations in just minutes, ready to download and share with your audience.",
+    title: "Interactive Q&A",
+    description: "Users can ask questions, and the avatar responds automatically, before continuing with the class or course seamlessly.",
     imgSrc: stepimg3,
   },
 ]
@@ -161,7 +161,7 @@ export default function Home() {
                 </span> Result-Driven</h4>
                 <h2 className="section-title">How It <span>Works.</span></h2>
                 <p className="text-[#202020] text-lg mt-[10px] mb-[20px] md:my-[30px] opacity-70">
-                  Our goal is to simplify and revolutionize the way you create and translate content. With mAity, we empower you to bring your ideas to life effortlessly
+                  Transforms traditional video content into an interactive AI-powered experience. Instead of just watching a pre-recorded explanation, users can ask questions directly to the video, and the avatar—created from the original speaker—will respond in real-time using AI.
                 </p>
                 <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Get Started Now</Link>
 
