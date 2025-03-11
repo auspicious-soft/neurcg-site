@@ -75,7 +75,7 @@ const ProductDesc: React.FC<CardProps> = ({
 
         <div>
         <Link href={buttonLink} className="custom-button button md:min-w-[146px] ">
-          Try Now{" "}
+          Book a Demo{" "}
         </Link>
         </div>
       </div>
