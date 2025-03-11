@@ -101,15 +101,15 @@ export default function Home() {
             </div>
             <div className="hidden md:flex p-[7px] items-center bg-white gap-4 rounded-lg pr-5 absolute top-[25%] translate-y-[-25%] left-[50px]  ">
               <VideoIcon1 />
-              <h3 className="text-[#202C2F]">Text And Image To Video</h3>
+              <h3 className="text-[#202C2F]">Realistic Human Interaction</h3>
             </div>
             <div className="hidden md:flex p-[7px] items-center bg-white gap-4 rounded-lg pr-5 absolute bottom-[30%] left-[100px] ">
               <VideoIcon2 />
-              <h3 className="text-[#202C2F]">Audio And Image To Video</h3>
+              <h3 className="text-[#202C2F]">Real-Time Assistance</h3>
             </div>
             <div className="hidden md:flex p-[7px] items-center bg-white gap-4 rounded-lg pr-5 absolute top-[50%] translate-y-[-50%]  right-[60px] ">
               <VideoIcon3 />
-              <h3 className="text-[#202C2F]">Video Translation</h3>
+              <h3 className="text-[#202C2F]">Translate Your Content</h3>
             </div>
           </div>
         </div>
