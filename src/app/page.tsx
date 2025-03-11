@@ -52,7 +52,7 @@ const OverviewData = [
       "Produce tailored video content in your preferred language.",
       "Voice Cloning in 28 Languages",
       "Translate video content in just a few clicks to reach a worldwide audience."],
-    videoSrc: "/assets/YourVideoFile.mp4",
+    videoSrc: "/assets/maity.mp4",
     buttonLink: "#contact-us",
     icon1: <CardIcon3 />,
     icon2: <TypeIcon3 />,
