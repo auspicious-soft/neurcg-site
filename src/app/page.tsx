@@ -83,7 +83,7 @@ export default function Home() {
       <div className="container">
         <div className="pt-[10px] md:pt-[30px] lg:pt-[50px] text-center">
           <h1 className="text-black text-[30px] leading-[40px] md:text-[42px] lg:text-[66px] font-[800] md:leading-[66px] lg:leading-[86px]">
-            Effortless AI Digital Agents: <br />
+            Instant Avatars, Real-Time Conversations, Limitless Possibilities <br />
             <span className="text-[#e56f20]">
               Human-Like and Business-Ready{" "}
             </span>
@@ -97,7 +97,7 @@ export default function Home() {
         <div>
           <div className="relative pt-[50px]">
             <div className="video-frame">
-              <VideoPlayer url="/assets/Finalvideo.mp4" />
+              <VideoPlayer url="/assets/Avatarhomevideo.mp4" />
             </div>
             <div className="hidden md:flex p-[7px] items-center bg-white gap-4 rounded-lg pr-5 absolute top-[25%] translate-y-[-25%] left-[50px]  ">
               <VideoIcon1 />
