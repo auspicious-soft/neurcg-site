@@ -110,7 +110,7 @@ const Contact = () => {
             />
           </label>
           <label htmlFor="description" className="text-[#212f33] mb-[18px] flex flex-col md:flex-row text-xl md:text-3xl">
-            I would like to book a demo to learn more about your technology. I’d also like to mention...
+            I'd like to book a demo to learn more about your technology. I’d also like to mention...
           </label>
           <textarea
             name="description"
