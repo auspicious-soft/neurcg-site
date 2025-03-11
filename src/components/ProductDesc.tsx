@@ -37,7 +37,7 @@ interface CardProps {
   description: string | string[]; 
   buttonLink: string;
   imgSrc?: string | StaticImageData;
-  videoSrc?: string;
+  //videoSrc?: string;
   icon1: React.ReactNode;
   icon2: React.ReactNode;
 }
