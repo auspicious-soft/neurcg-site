@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="grid  gap-10 items-center lg:grid-cols-[minmax(0,_5.5fr)_minmax(0,_6.5fr)]">
         <div className="rounded-[20px] bg-[#FCF0E8] py-[30px] px-[15px] md:py-[60px] md:px-[40px]">
           <h2 className="text-[28px] text-[#E56F20] font-[700]  mb-[20px] md:mb-10 md:text-[48px]">
-            Contact <span className="text-[#343434]">Us</span>
+            Book A <span className="text-[#343434]">DEMO</span>
           </h2>
           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
             Location
