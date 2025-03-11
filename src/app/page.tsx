@@ -93,10 +93,8 @@ export default function Home() {
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
               Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
-          buttonLink: "#contact-us",
-          //the following two lines were disconected. They linked to the platform. I wanted to keep it in case we want to use it later
-          //<Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-            //className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
+          <Link href="#contact-us" //<Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}   this was a code to go to the platform. I left it there, in case we need it
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
@@ -168,7 +166,7 @@ export default function Home() {
                 <p className="text-[#202020] text-lg mt-[10px] mb-[20px] md:my-[30px] opacity-70">
                   Transforms traditional video content into an interactive AI-powered experience. Instead of just watching a pre-recorded explanation, users can ask questions directly to the video, and the avatar—created from the original speaker—will respond in real-time using AI.
                 </p>
-                <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Book a Demo</Link>
+                <Link href="#contact-us" className="button mt-10 md:mt-[40px] md:px-[45px]">Book a Demo</Link>
 
               </div>
             </div>
