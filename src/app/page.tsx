@@ -166,7 +166,7 @@ export default function Home() {
                 <p className="text-[#202020] text-lg mt-[10px] mb-[20px] md:my-[30px] opacity-70">
                   Transforms traditional video content into an interactive AI-powered experience. Instead of just watching a pre-recorded explanation, users can ask questions directly to the video, and the avatar—created from the original speaker—will respond in real-time using AI.
                 </p>
-                <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Get Started Now</Link>
+                <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
 
               </div>
             </div>
