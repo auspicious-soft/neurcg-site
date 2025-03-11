@@ -63,7 +63,7 @@ const Contact = () => {
             Mail Us
           </h3>
           <p className="text-[#202c2f] text-xl font-semibold mb-7">
-            neurcg@neurcg.com
+            maity@maity.pro
           </p>
           <h3 className="text-[#e56f20] text-sm mb-[10px] uppercase">
             Follow Us
