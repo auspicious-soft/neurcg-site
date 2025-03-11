@@ -94,7 +94,7 @@ export default function Home() {
               Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
@@ -166,7 +166,7 @@ export default function Home() {
                 <p className="text-[#202020] text-lg mt-[10px] mb-[20px] md:my-[30px] opacity-70">
                   Transforms traditional video content into an interactive AI-powered experience. Instead of just watching a pre-recorded explanation, users can ask questions directly to the video, and the avatar—created from the original speaker—will respond in real-time using AI.
                 </p>
-                <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
+                <Link href={`/`} className="button mt-10 md:mt-[40px] md:px-[45px]">Book a Demo</Link>
 
               </div>
             </div>
