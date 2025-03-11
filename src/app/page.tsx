@@ -94,7 +94,7 @@ export default function Home() {
               Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
-            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Create Your AI Assistant</Link>
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a DEMO</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
