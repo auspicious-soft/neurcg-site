@@ -121,7 +121,7 @@ export default function Home() {
           <h2 className="section-title text-center mb-[20px] md:mb-[46px]  ">
             The fastest, easiest way to <br />
             <span>
-              Transform your Business{" "}
+              Transform and Scale your Business{" "}
             </span>
           </h2>
           <GoogleAd
