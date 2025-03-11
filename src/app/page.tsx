@@ -20,7 +20,7 @@ import StepsCard from "@/components/StepsCard";
 import stepimg1 from "@/assets/images/stepimg1.png"
 import stepimg2 from "@/assets/images/stepimg2.png"
 import stepimg3 from "@/assets/images/stepimg3.png"
-import step3vid from "@/assets/images/maity.mp4"
+//import step3vid from "@/assets/images/maity.mp4"
 import Link from "next/link";
 import GoogleAd from "@/components/google-ads";
 
