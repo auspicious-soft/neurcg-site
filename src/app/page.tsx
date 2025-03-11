@@ -83,13 +83,13 @@ export default function Home() {
       <div className="container">
         <div className="pt-[10px] md:pt-[30px] lg:pt-[50px] text-center">
           <h1 className="text-black text-[30px] leading-[40px] md:text-[42px] lg:text-[66px] font-[800] md:leading-[66px] lg:leading-[86px]">
-            Instant Avatars, Real-Time Conversations, Limitless Possibilities <br />
+            Instant Avatars, Real-Time Talks: <br />
             <span className="text-[#e56f20]">
               Human-Like and Business-Ready{" "}
             </span>
           </h1>
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
-              Create your own AI Assistant for Education, Customer Support, HR, Sales, and More...
+              Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
           <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
             className="button mt-[20px] md:mt-[40px] md:px-[45px]">Create Your AI Assistant</Link>
