@@ -136,6 +136,7 @@ export default function Home() {
                  title={item.title}
                  description={item.description}
                  imgSrc={item.imgSrc}
+                 videoSrc={data.videoSrc} 
                  icon1={item.icon1}
                  icon2={item.icon2}
                  buttonLink={item.buttonLink}
