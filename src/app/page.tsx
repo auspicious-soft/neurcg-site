@@ -1,6 +1,7 @@
 "use client"
 import VideoPlayer from "@/components/VideoPlayer";
 import {
+  
   CardIcon1,
   CardIcon2,
   CardIcon3,
@@ -74,7 +75,7 @@ const StepCardData = [
     id: 3,
     title: "Interactive Q&A",
     description: "Users can ask questions, and the avatar responds automatically, before continuing with the class or course seamlessly.",
-    imgSrc: stepimg3,
+    videoSrc: "public/assets/maity.mp4",
   },
 ]
 export default function Home() {
