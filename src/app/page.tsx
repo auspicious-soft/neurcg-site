@@ -13,6 +13,7 @@ import {
   VideoIcon3,
 } from "@/utils/svgicons";
 import ProductDesc from "@/components/ProductDesc";
+import img0 from "@/assets/images/image_0.png";
 import img1 from "@/assets/images/cardimg1.png";
 import img2 from "@/assets/images/cardimg2.png";
 import img3 from "@/assets/images/cardimg3.png";
@@ -27,29 +28,32 @@ import GoogleAd from "@/components/google-ads";
 const OverviewData = [
   {
     id: "card-1",
-    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly ",
+    title: "Real-time Virtual humans – Speak and Interact with your avatar live",
     description: "Turn your photo into a real-time AI assistant. Engage, interact, and communicate with a virtual version of yourself.",
-    imgSrc: img1,
+    imgSrc: img0,
     buttonLink: "#contact-us",
+    buttonName: "Book a Demo",
     icon1: <CardIcon1 />,
     icon2: <TypeIcon1 />,
   },
   {
     id: "card-2",
-    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly ",
-    description: "Turn your photo into a real-time AI assistant. Engage, interact, and communicate with a virtual version of yourself.",
+    title: "Convert Your Text And Image to Live Videos",
+    description: "Turn your text and images into dynamic video content.Choose an avatar or create your virtual tween to create personalised, captivating visuals for any purpose.",
     imgSrc: img1,
-    buttonLink: "#contact-us",
+    buttonLink: `${process.env.NEXT_PUBLIC_USER_LINK}`,
+    buttonName: "Free Trial",
     icon1: <CardIcon1 />,
     icon2: <TypeIcon1 />,
   },
   {
     id: "card-3",
-    title: "Turn your videos into interactive experiences",
+    title: "Convert Your Audio And Image to Live Videos",
     description:
-      "Turn your traditional videos into interactive experiences by creating a real-time avatar of the presenter. Viewers can ask questions directly to the video, and the avatar responds instantly, offering personalized answers before seamlessly continuing with the content.",
+      "Bring your ideas to life! Convert your audio and images into stunning live videos with unique avatar animations, designed to reflect your digital persona in vibrant and engaging ways.",
     imgSrc: img2,
-    buttonLink: "#contact-us",
+    buttonLink: `${process.env.NEXT_PUBLIC_USER_LINK}`,
+    buttonName: "Free Trial",
     icon1: <CardIcon2 />,
     icon2: <TypeIcon2 />,
   },
@@ -62,7 +66,8 @@ const OverviewData = [
       "Translate video content in just a few clicks to reach a worldwide audience."],
     imgSrc: img3,
     //videoSrc: "/assets/maity.mp4",
-    buttonLink: "#contact-us",
+    buttonLink: `${process.env.NEXT_PUBLIC_USER_LINK}`,
+    buttonName: "Free Trial",
     icon1: <CardIcon3 />,
     icon2: <TypeIcon3 />,
   },
@@ -102,8 +107,8 @@ export default function Home() {
           <h3 className="mt-[20px] md:text-[22px] font-[600] text-[#00000080] max-w-[800px] mx-auto md:mt-[34px]  ">
               Create your own AI Assistant for Education, Customer Support, HR, Sales, and Limitless Possibilities...
           </h3>
-          <Link href="#contact-us" //<Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}   this was a code to go to the platform. I left it there, in case we need it
-            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Book a Demo</Link>
+          <Link href={`${process.env.NEXT_PUBLIC_USER_LINK}`}
+            className="button mt-[20px] md:mt-[40px] md:px-[45px]">Free Trial</Link>
         </div>
         <div>
           <div className="relative pt-[50px]">
@@ -149,6 +154,7 @@ export default function Home() {
                  icon1={item.icon1}
                  icon2={item.icon2}
                  buttonLink={item.buttonLink}
+                 buttonName={item.buttonName}
                />
             ))}
           </div>
