@@ -13,6 +13,7 @@ import {
   VideoIcon3,
 } from "@/utils/svgicons";
 import ProductDesc from "@/components/ProductDesc";
+import img0 from "@/assets/images/image_0.png";
 import img1 from "@/assets/images/cardimg1.png";
 import img2 from "@/assets/images/cardimg2.png";
 import img3 from "@/assets/images/cardimg3.png";
