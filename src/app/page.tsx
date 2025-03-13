@@ -36,6 +36,15 @@ const OverviewData = [
   },
   {
     id: "card-2",
+    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly ",
+    description: "Turn your photo into a real-time AI assistant. Engage, interact, and communicate with a virtual version of yourself.",
+    imgSrc: img1,
+    buttonLink: "#contact-us",
+    icon1: <CardIcon1 />,
+    icon2: <TypeIcon1 />,
+  },
+  {
+    id: "card-3",
     title: "Turn your videos into interactive experiences",
     description:
       "Turn your traditional videos into interactive experiences by creating a real-time avatar of the presenter. Viewers can ask questions directly to the video, and the avatar responds instantly, offering personalized answers before seamlessly continuing with the content.",
@@ -45,7 +54,7 @@ const OverviewData = [
     icon2: <TypeIcon2 />,
   },
   {
-    id: "card-3",
+    id: "card-4",
     title: "Video Translation",
     description: [
       "Produce tailored video content in your preferred language.",
