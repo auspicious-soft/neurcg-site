@@ -50,7 +50,7 @@ const OverviewData = [
     description: [
       "Produce tailored video content in your preferred language.",
       "Voice Cloning in 28 Languages",
-      "Translate video content in just a few clicks to reach a worldwide audience."],
+      "Translate video content in just a few clicks to reach a worldwide audience. "],
     imgSrc: img3,
     //videoSrc: "/assets/maity.mp4",
     buttonLink: "#contact-us",
