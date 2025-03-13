@@ -27,7 +27,7 @@ import GoogleAd from "@/components/google-ads";
 const OverviewData = [
   {
     id: "card-1",
-    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly",
+    title: "Your Digital Twin, Ready to Engage – Speak, Interact, and Connect Instantly ",
     description: "Turn your photo into a real-time AI assistant. Engage, interact, and communicate with a virtual version of yourself.",
     imgSrc: img1,
     buttonLink: "#contact-us",
